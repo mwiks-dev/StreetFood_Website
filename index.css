@@ -1,0 +1,20 @@
+header{
+    background-color:lightgrey;
+}
+.body1{
+    background-color: whitesmoke;
+}
+.body2{
+    background-color:lightyellow;
+    text-align: center;
+}
+.body3{
+    background-color:#C9ECB5;
+}
+.body4{
+    background-color: linen;
+    text-align: center;
+}
+footer{
+    background-color: #C9ECB5;
+}
