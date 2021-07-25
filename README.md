@@ -1,3 +1,4 @@
 - StreetFood Website
 - This Website is prepared by Maryann Mwikali
-- 
+- This is the official website for StreetFood.It captures our menu and how to contact us.
+- This program employed the use of HTML and CSS files to create the Website.
