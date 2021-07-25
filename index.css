@@ -12,9 +12,14 @@ header{
     background-color:#C9ECB5;
 }
 .body4{
-    background-color: linen;
+    background-color:#FFD77C;
     text-align: center;
 }
 footer{
     background-color: #C9ECB5;
+.b{
+    background-color: #EAAB1B;
+}
+nav>ul>li{
+    flex
 }
