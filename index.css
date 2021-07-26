@@ -20,7 +20,9 @@ footer{
 
 }
 .street1{
-    text-align:center
+    text-align:center;
+    font-weight: 900px;
+    color: black;
 }
 body{
     font-family:'Times New Roman', Times, serif;
@@ -29,4 +31,7 @@ body{
     float:left;
     justify-content: space-between;
     align-items: center;
+}
+.subtitle {
+ color:#6CB840;
 }
