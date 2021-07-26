@@ -19,34 +19,14 @@ footer{
     background-color: #C9ECB5;
 
 }
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  nav {
-    max-width:max-content;
-    margin: 0 auto;
-    padding: 10px 0;
-    margin-right: 0%;
- }
- nav>ul{
-     text-align: right;
- }
- ul>li{
-     display: inline-block;
- }
- ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.list {
-    float: left;
-    width: 125px;
-    height: 125px;
-    margin: 10px;
-}
 .street1{
     text-align:center
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.list {
+    float:left;
+    justify-content: space-between;
+    align-items: center;
 }
