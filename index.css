@@ -1,7 +1,7 @@
 header{
     background-color:lightgrey;
 }
-.body1{
+.eattogether{
     background-color: whitesmoke;
 }
 .body2{
@@ -14,10 +14,7 @@ header{
 .body4{
     background-color:#FFD77C;
     text-align: center;
-}
-footer{
-    background-color: #C9ECB5;
-
+    
 }
 .street1{
     text-align:center;
@@ -30,7 +27,6 @@ body{
 .list {
     float:left;
     justify-content: space-between;
-    align-items: center;
 }
 .subtitle {
  color:#6CB840;
@@ -39,4 +35,116 @@ button{
      background-color:#6CB840;
      color:white;
     
+}
+#menu-table{
+    box-align: center;
+}
+#img2{
+    float:left;
+}
+#img3{
+    float:left;
+}
+.opendays{
+   float:left;
+   left:50px;
+   position:absolute;
+}
+hr{
+   height:130px;
+   border-left:3px green dashed;
+   left:190px;
+   position:absolute;
+}
+address{
+    float:left;
+    left:230px;
+    position:absolute;
+}
+#lastbutton{
+    float:right;
+    right:20px;
+    position:absolute;
+}
+.rightnote{
+    float:right;
+    right:180px;
+    position:absolute;
+}
+.footer{
+    background-color:red;
+}
+.button2{
+  background-color: #6CB840; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20px;
+  width: 200px;
+}
+.button1{
+  background-color:white;
+  border: none;
+  color:black;
+  padding: 20px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 20px;
+  width: 400px;
+}
+#h2{
+    text-align: center;
+}
+#h3{
+    font-size: 50px;
+    float:right;
+  color: #6CB840; /* Green */
+  right: 80px;
+  position:absolute;
+}
+#burger{
+    float:right;
+    right:20px;
+    position:relative;
+    display:inline-block;
+}
+#image3{
+    float:left;
+    left:8px;
+    position:absolute;
+}
+#eattogether{
+    float:right;
+    right:12px;
+    position:absolute;
+    color:#EAAB1B;
+
+}
+#p2{
+    float:right;
+    right:14px;
+    position:absolute;
+}
+#menu{
+    background-color:white;
+  border: none;
+  color:black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10x;
+  border-radius: 20px;
+  width: 400px;
+  
+}
+#contactp{
+    padding-left:600px;
+    padding-right:600px;
 }
