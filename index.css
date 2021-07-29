@@ -1,150 +1,197 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    justify-content: space-around;
+    display:flex;
+    padding:50px;
+}
+.eclipse{
+    position:absolute;
+    background: radial-gradient(100% 100% at 75% -20%, yellowgreen 50%, transparent 50%);
+    opacity:0.4;
+    background-repeat: no-repeat;
+    width:100%;
+    height:1300px;
+}
+a{
+    text-decoration: none;
+    color:black;
+    }
+    #star{
+    display:flex;
+    font-size: 600%;
+    justify-content: center;
+    }
+    header{
     background-color:lightgrey;
-}
-.eattogether{
-    background-color: whitesmoke;
-}
-.body2{
+    height:700px;
+    }
+    .wedontplay{
+        float:left;
+        left:105px;
+        position:absolute;
+        padding-top:0.1px;
+    }
+    #para1{
+        float:left;
+        position: 50px;
+        padding-right:1000px;
+        padding-left:100px;
+        padding-top:100px;
+    }
+    #buttono{
+        background-color: #6CB840; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        border-radius:12px;
+        width: 150px;
+        }
+    #eat{
+        float:right;
+        right:100px;
+        position:absolute;
+        color:#EAAB1B;
+        padding-top: 200px;
+        padding-bottom:300px;
+        }
+    #p2{
+        float:right;
+        right:10px;
+        position:absolute;
+        padding-right:100px;
+        padding-left:1200px;
+        padding-top:300px;
+        padding-bottom:100px;
+    }
+    .menu{
+        background-color:white;
+        border: none;
+        color:black;
+        padding: 20px;
+        text-align: right;
+        display: inline-block;
+        font-size: 15px;
+        border-radius:20px;
+        width: 400px;
+        }
+    .body2{
     background-color:lightyellow;
     text-align: center;
-}
-.body3{
+    }
+    .body3{
     background-color:#C9ECB5;
-}
-.body4{
+    }
+    .body4{
     background-color:#FFD77C;
     text-align: center;
-    
-}
-.street1{
+    }
+    .street1{
     text-align:center;
     font-weight: 900px;
     color: black;
-}
-body{
-    font-family:'Times New Roman', Times, serif;
-}
-.list {
+    }
+    .subtitle {
+    color:black;
+    }
+    #img2{
     float:left;
-    justify-content: space-between;
-}
-.subtitle {
- color:#6CB840;
-}
-button{
-     background-color:#6CB840;
-     color:white;
-    
-}
-#menu-table{
-    box-align: center;
-}
-#img2{
+    }
+    #img3{
     float:left;
-}
-#img3{
+    }
+    .opendays{
     float:left;
-}
-.opendays{
-   float:left;
-   left:50px;
-   position:absolute;
-}
-hr{
-   height:130px;
-   border-left:3px green dashed;
-   left:190px;
-   position:absolute;
-}
-address{
+    left:50px;
+    position:absolute;
+    }
+    hr{
+    height:130px;
+    border-left:3px green dashed;
+    left:190px;
+    position:absolute;
+    }
+    address{
     float:left;
     left:230px;
     position:absolute;
-}
-#lastbutton{
+    }
+    #lastbutton{
     float:right;
     right:20px;
     position:absolute;
-}
-.rightnote{
+    }
+    .rightnote{
     float:right;
     right:180px;
     position:absolute;
-}
-.footer{
-    background-color:red;
-}
-.button2{
-  background-color: #6CB840; /* Green */
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 20px;
-  width: 200px;
-}
-.button1{
-  background-color:white;
-  border: none;
-  color:black;
-  padding: 20px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 20px;
-  width: 400px;
-}
-#h2{
+    }
+    .footer{
+    background-color:#C9ECB5;
+    height:400px; 
+    }
+    .button2{
+    background-color: #6CB840; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
     text-align: center;
-}
-#h3{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 200px;
+    }
+    .button1{
+    background-color:white;
+    border: none;
+    color:black;
+    padding: 20px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 400px;
+    }
+    #h2{
+    text-align: center;
+    }
+    #h3{
     font-size: 50px;
     float:right;
-  color: #6CB840; /* Green */
-  right: 80px;
-  position:absolute;
-}
-#burger{
-    float:right;
-    right:20px;
-    position:relative;
-    display:inline-block;
-}
-#image3{
-    float:left;
-    left:8px;
+    color: #6CB840; /* Green */
+    right: 80px;
     position:absolute;
-}
-#eattogether{
+    }
+    #burger{
     float:right;
-    right:12px;
+    right:100px;
     position:absolute;
-    color:#EAAB1B;
-
-}
-#p2{
+    }
+    #p2{
     float:right;
     right:14px;
     position:absolute;
-}
-#menu{
-    background-color:white;
-  border: none;
-  color:black;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10x;
-  border-radius: 20px;
-  width: 400px;
-  
-}
-#contactp{
+    }
+    #contactp{
     padding-left:600px;
     padding-right:600px;
-}
+    }
+    #juice{
+    float:left;
+    position: absolute;
+    }
+    #burgerpizz{
+    float:left;
+    position:absolute;
+    }
+    #buttono{
+    color:#6CB840;
+    text-align:center
+    }
+    
+
