@@ -27,9 +27,6 @@ nav{
     left:61%;
     top:12%;
 }
-#i1{
-
-}
 a{
     text-decoration: none;
     color:black;
@@ -83,24 +80,79 @@ a{
     }
     .menu{
         background-color:white;
-        border: none;
+        height:200px;
         color:black;
-        padding: 20px;
+        margin: 20px;
         height:200px;
         display:flex;
         text-align: right;
-        display: inline-block;
         font-size: 15px;
         border-bottom-right-radius:20px;
         width: 400px;
+        position:relative;
+        flex-direction: column;
         }
-    
+    .ls{
+        display:flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+
+    }
+    .menu img{
+        position:absolute;
+        right:60%;
+        top:20%;
+    }
+    .menu h3{
+        text-align: left;
+        margin-top:0;
+        padding-top:20px;
+        padding-left:20px;
+    }
+    .menu p{
+        text-align:center;
+        padding-right:60px;
+        padding-left:130px;
+    }
+    #green{
+        color:#6CB840;
+    }
+    .body3 h2{
+        text-align: center;
+    }
+    .body3 h3{
+        text-align:right;
+        right:50px;
+        padding-right:50px;
+        padding-left:200px;
+        color:#6CB840;
+        font-size:50px;
+    }
+    #burger{
+         text-align:left;
+         font-size:30px;
+         display:flex;
+         flex-direction:column;
+         justify-content:flex-end;
+    }
     .body2{
     background-color:lightyellow;
     text-align: center;
     }
     .body3{
     background-color:#C9ECB5;
+    height:500px;
+    display:flex;
+    flex-direction:row;
+    }
+    #para4{
+        text-align:center;
+    }
+    #juicebp{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
     }
     .body4{
     background-color:#FFD77C;
@@ -182,11 +234,6 @@ a{
     float:right;
     color: #6CB840; /* Green */
     right: 80px;
-    position:absolute;
-    }
-    #burger{
-    float:right;
-    right:100px;
     position:absolute;
     }
     #p2{
