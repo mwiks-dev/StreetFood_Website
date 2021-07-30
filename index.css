@@ -130,29 +130,44 @@ a{
         font-size:50px;
     }
     #burger{
-         text-align:left;
-         font-size:30px;
-         display:flex;
-         flex-direction:column;
-         justify-content:flex-end;
+         text-align:right;
+         right:80px;
+         font:30px;
+         padding-left:300px;
+         padding-right:200px;
     }
+    #pizz{
+        text-align:right;
+        right:160px;
+
+    }
+    
     .body2{
     background-color:lightyellow;
     text-align: center;
     }
     .body3{
     background-color:#C9ECB5;
-    height:500px;
-    display:flex;
-    flex-direction:row;
+    height:900px;
     }
     #para4{
-        text-align:center;
+        text-align:right;
+        right:20px;
+        padding:center;
+        padding-right:60px;
+        padding-left:600px;
     }
-    #juicebp{
-        display: flex;
-        flex-direction: column;
-        justify-content:flex-start;
+    #juice{
+        display:flex;
+        flex:left;
+        left:0.5px;
+        padding-top:20px;
+        padding-bottom:250px;
+    }
+    #burgerpizz{
+        display:flex;
+        flex:left;
+        left:1px;
     }
     .body4{
     background-color:#FFD77C;
