@@ -2,7 +2,6 @@
 This provides a landing page for clients visiting the restaurant's website.
 ## Author
 This project was prepared by Maryann Mwikali
-![Maryann](/assets/IMG_20201012_164303.jpg)
 ## Technologies Used
 I employed the use of html and CSS to build and come up with this page.
 ## Copyright and License.
