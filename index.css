@@ -25,7 +25,7 @@ nav{
     border-left-color: transparent;
     transform: rotate(-45deg);
     left:61%;
-    top:12%;
+    top:10%;
 }
 a{
     text-decoration: none;
@@ -53,13 +53,15 @@ a{
         padding-left:100px;
         padding-top:100px;
     }
-    #buttono{
-        background-color: #6CB840; /* Green */
-        border: none;
+    .buttono{
+         background-color: #6CB840; /* Green */
         text-align: center;
         font-size: 12px;
-        border-radius:12px;
+        border-radius:24px;
         width: 150px;
+        height:50px;
+        color:white;
+
         }
     #eat{
         float:right;
@@ -118,6 +120,9 @@ a{
     #green{
         color:#6CB840;
     }
+    #orange{
+        color:#EAAB1B;
+    }
     .body3 h2{
         text-align: center;
     }
@@ -131,14 +136,17 @@ a{
     }
     #burger{
          text-align:right;
-         right:80px;
+         right:50px;
          font:30px;
-         padding-left:300px;
-         padding-right:200px;
+         padding-left:250px;
+         padding-right:20px;
     }
     #pizz{
         text-align:right;
-        right:160px;
+        right:50px;
+        font-size: 30px;
+        padding-left:400px;
+        padding-right:450px;
 
     }
     
@@ -152,22 +160,13 @@ a{
     }
     #para4{
         text-align:right;
-        right:20px;
-        padding:center;
-        padding-right:60px;
-        padding-left:600px;
+        right:10px;
+        padding-right:250px;
+        padding-left:900px;
     }
-    #juice{
-        display:flex;
-        flex:left;
-        left:0.5px;
-        padding-top:20px;
-        padding-bottom:250px;
-    }
-    #burgerpizz{
-        display:flex;
-        flex:left;
-        left:1px;
+    #jb{
+        float:left;
+        justify-;
     }
     .body4{
     background-color:#FFD77C;
@@ -195,7 +194,7 @@ a{
     hr{
     height:130px;
     border-left:3px green dashed;
-    left:190px;
+    left:220px;
     position:absolute;
     }
     address{
@@ -205,8 +204,12 @@ a{
     }
     #lastbutton{
     float:right;
-    right:20px;
+    right:0.05px;
     position:absolute;
+    background-color: #6CB840; /* Green */
+    text-align: center;
+    font-size: 12px;
+    color:white;
     }
     .rightnote{
     float:right;
@@ -267,10 +270,6 @@ a{
     #burgerpizz{
     float:left;
     position:absolute;
-    }
-    #buttono{
-    color:#6CB840;
-    text-align:center
     }
     
 
