@@ -3,7 +3,8 @@ This provides a landing page for clients visiting the restaurant's website.
 ## Author
 This project was prepared by Maryann Mwikali
 ## Technologies Used
-I employed the use of html and CSS to build and come up with this page.
+i) HTML
+ii)CSS
 ## Copyright and License.
 MIT License
 
