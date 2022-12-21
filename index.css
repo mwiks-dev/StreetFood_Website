@@ -5,15 +5,15 @@
 nav{
     justify-content: space-around;
     display:flex;
-    padding:50px;
+    padding:60px;
 }
 .eclipse{
     position:absolute;
-    background: radial-gradient(100% 100% at 75% -20%, yellowgreen 50%, transparent 50%);
-    opacity:0.4;
+    background: radial-gradient(100% 100% at 90% -15%, yellowgreen 50%, transparent 20%);
+    opacity:0.9;
     background-repeat: no-repeat;
-    width:100%;
-    height:1300px;
+    width:99%;
+    height:75em;
 }
 .semi-c{
     position: absolute;
@@ -23,9 +23,9 @@ nav{
     border-radius: 50%;
     border-bottom-color: transparent;
     border-left-color: transparent;
-    transform: rotate(-45deg);
-    left:61%;
-    top:10%;
+    transform: rotate(-30deg);
+    left:65%;
+    top:12%;
 }
 a{
     text-decoration: none;
@@ -42,9 +42,9 @@ a{
     }
     .wedontplay{
         float:left;
-        left:105px;
+        left:6em;
         position:absolute;
-        padding-top:0.1px;
+        margin-top:-15em;
     }
     #para1{
         float:left;
@@ -52,34 +52,35 @@ a{
         padding-right:1000px;
         padding-left:100px;
         padding-top:100px;
+        margin-top:-15em;
+
     }
     .buttono{
-         background-color: #6CB840; /* Green */
+        background-color: #6CB840; /* Green */
         text-align: center;
         font-size: 12px;
         border-radius:24px;
         width: 150px;
         height:50px;
         color:white;
-
         }
     #eat{
         float:right;
-        right:100px;
+        right:8em;
+        margin-top: 7em;
         position:absolute;
         color:#EAAB1B;
-        padding-top: 200px;
-        padding-bottom:300px;
+        /* padding-top: 20em; */
+        /* padding-bottom:300px; */
         }
     #p2{
         float:right;
-        right:10px;
+        margin-right:7em;
+        margin-top: 11em;
         position:absolute;
-        padding-right:100px;
-        padding-left:1200px;
-        padding-top:300px;
-        padding-bottom:100px;
+        width:15%
     }
+    
     .menu{
         background-color:white;
         height:200px;
@@ -135,17 +136,13 @@ a{
         font-size:50px;
     }
     #burger{
-         text-align:right;
-         right:50px;
          font:30px;
          padding-left:250px;
          padding-right:20px;
     }
     #pizz{
-        text-align:right;
-        right:50px;
+        margin-left: 15em;
         font-size: 30px;
-        padding-left:400px;
         padding-right:450px;
 
     }
@@ -156,13 +153,12 @@ a{
     }
     .body3{
     background-color:#C9ECB5;
-    height:900px;
+    height:40em;
     }
     #para4{
-        text-align:right;
         right:10px;
-        padding-right:250px;
         padding-left:900px;
+        margin-top: -15em;
     }
     #jb{
         float:left;
@@ -230,18 +226,18 @@ a{
     font-size: 12px;
     border-radius: 20px;
     width: 200px;
+    margin-right: 30em;
     }
     .button1{
     background-color:white;
     border: none;
     color:black;
     padding: 20px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
+    text-align: center;
     font-size: 12px;
     border-radius: 20px;
-    width: 400px;
+    width: 30em;
+    margin-right: 30em;
     }
     #h2{
     text-align: center;
@@ -259,16 +255,22 @@ a{
     position:absolute;
     }
     #contactp{
-    padding-left:600px;
-    padding-right:600px;
+        width:70%
+    }
+    #ch2{
+        margin-right: 22em;
     }
     #juice{
     float:left;
-    position: absolute;
+    position: relative;
+    margin-left:-3em;
+    margin-top:-25em;
     }
     #burgerpizz{
     float:left;
-    position:absolute;
+    position:relative;
+    margin-left:-23em;
+    margin-top:-9em;
     }
     
 
